@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke;
+    color: goldenrod;
+    width: fit-content;
+
+
+}
+
+.nav {
+    background-color: rgb(51,51, 51);
+    color:rgb(61, 61, 61);
+    font-size:normal;
+    margin: 10%;
+}
+
+.navmen {
+    background-color: rgb(51,51, 51);
+    color:rgb(26, 39, 226);
+    font-size:normal;
+    margin: 10%;
+}
+
+.black-border {
+    border: 2px solid black;
+    width: 73%;
+}
+
+.links {
+    margin:auto;
+}
