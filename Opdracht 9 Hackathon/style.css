@@ -1,0 +1,126 @@
+/* Smartphone (potrait) */
+@media (min-width: 320px) {
+    h1{font-size:20px;}
+    h2{font-size: 18px;}
+    h3{font-size: 12px;}
+    h4{font-size: 10px;}
+    body{
+    background-color: #F2B943;
+    color: black;}
+    footer{
+        font-size:7px;}
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F2B943;
+    margin: 70px;
+}
+
+
+
+nav{
+    text-align: center;
+    background-image: url(https://pofzak.nl/wp-content/uploads/2017/08/tips-en-tricks-eerste-keer-boulderen-pofzak.jpg);
+    opacity: 0.65; 
+
+}
+
+.nav{
+    color: #F2B943;
+    background-color: #58a2ae;
+    text-decoration: none;
+    text-align:center;
+    display:inline-flex;
+    border:solid;
+    border-radius: 4px; 
+    padding: 4px;
+    margin: 4px;
+}
+
+section{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.inschrijving{
+    border: 2px solid;
+    border-color:#ffffff;
+    border-radius:5px;
+    margin:15px 200px;
+    background-color: #58a2ae;
+    color:#F2B943
+}
+
+form{
+    text-align:center;    
+ 
+}
+
+.stack{
+    text-decoration: none;
+    color:#58a2ae;
+}
+
+.leden{
+    border: 2px solid;
+    border-color:#ffffff;
+    border-radius:5px;
+    margin:15px 200px;
+    background-color: #58a2ae;
+    color:#F2B943
+}
+
+.video{
+    border: 2px solid;
+    border-color:#ffffff;
+    border-radius:5px;
+    padding:30px;
+    margin:15px 200px;
+    background-color: #58a2ae;
+    color:rgb(243, 158, 31);
+    font-size:1.2cm;
+}
+
+.videolink{
+    text-decoration:none;
+    color:#58a2ae;
+}
+
+footer{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Tablets (portrait) */
+@media (min-width: 768px){
+    h1{font-size:30px;}
+    h2{font-size:25px;}
+    h3{font-size:20px;}
+    h4{font-size:12px;}
+    body{
+        font-size:20px;
+        
+        background-color:#58a2ae ;
+        color: #F2B943;} /*block013 kleur*/
+
+
+    footer{
+        font-size:15px;}
+}
+
+/* Desktop */
+@media (min-width: 1024px){
+    h1{font-size:40px;}
+    h2{font-size:35px;}
+    h3{font-size:30px;}
+    h4{font-size:20px;}
+    body{
+        font-size:20px;
+        background-color:#F2B943 ;
+        color: #309eaf;}
+    footer{
+        font-size:15px;
+    }
+}

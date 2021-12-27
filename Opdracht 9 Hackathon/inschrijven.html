@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> K.C.T. Inschrijven </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav">
+                <h4>Home</h4>
+            </a>
+            <a href="boulderhallen.html" class="nav">
+                <h4>Boulderhallen</h4>
+            </a>
+            <a href="video.html" class="nav">
+                <h4>Boulder video's</h4>
+            </a>
+            <a href="leden.html" class="nav">
+                <h4>Leden</h4>
+            </a>
+            <a href="inschrijven.html" class="nav">
+                <h4>Inschrijven</h4>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h1>Inschrijven</h1>
+            </section>
+
+            <section>
+                <p>
+                    Hier word je lid van onze fantastische club.
+
+                </p>
+            </section>
+
+
+            <section class="inschrijving">
+
+
+
+                <form name="contact" method="POST" data-netlify="true">
+                    <label>Je naam:</label>
+                    <p>
+
+                        <label> <input type="text" name="inschrijven" /></label>
+                    </p>
+
+                    <label>Telefoon nummer:</label>
+                    <p>
+                        <label><input type="tel" name="inschrijven" /></label>
+                    </p>
+
+                    <label>Email adres:</label>
+                    <p>
+                        <label><input type="email" name="inschrijven" /></label>
+                    </p>
+
+                    <label>Je klimniveau:</label>
+                    <p>
+                        <label> <select name="role[]" multiple>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6a">6a</option>
+                                <option value="6b">6b</option>
+                                <option value="6c">6c</option>
+                                <option value="7a">7a</option>
+                                <option value="7b">7b</option>
+                            </select></label>
+                    </p>
+
+                    <label>Een foto uploaden:</label>
+                    <p>
+
+                        <label for="foto"></label>
+                        <input type="file" id="foto" name="inschrijven"><br><br>
+
+                    </p>
+
+                    <label>Een berichtje voor de ploeg, dit is overigens niet verplicht</label>
+                    <p>
+                        <label><textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Verzenden</button>
+                    </p>
+                </form>
+
+            </section>
+
+            <section>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        Onofficiele stichting "klimmen met plezier".
+    </footer>
+
+</body>
+
+</html>
